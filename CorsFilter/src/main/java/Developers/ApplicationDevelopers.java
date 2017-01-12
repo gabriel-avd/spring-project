@@ -17,14 +17,7 @@ public class ApplicationDevelopers extends SpringBootServletInitializer {
     public static void main(String[] args){
         ApplicationContext ctx = SpringApplication.run(ApplicationDevelopers.class, args);
 
-        System.out.println("Let's inspect the beans provided by spring Boot: ");
-
-        String[] beanNames= ctx.getBeanDefinitionNames();
-        Arrays.sort(beanNames);
-
-        for(String beanName: beanNames){
-            System.out.println(beanName);
-        }
+        System.out.println("APLICACION LEVANTADA!");
     }
 
     @Override

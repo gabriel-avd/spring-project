@@ -24,9 +24,8 @@ public class DevelopersController {
     public ResponseEntity index()
     {
         Developer dev= new Developer();
-        dev.setId(26L);
 
-        dev = getDevelopersService().getDeveloperById(13L);
+        dev = getDevelopersService().getDeveloperById(40L);
 
         return new ResponseEntity(dev, HttpStatus.OK);
     }

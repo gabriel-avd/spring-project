@@ -6,6 +6,11 @@ package entities;
 public class Developer {
     private Long id;
 
+    public Developer(Long id){
+        this.id=id;
+    }
+    public Developer(){}
+
     public Long getId() {
         return id;
     }

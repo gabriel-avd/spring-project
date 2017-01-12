@@ -10,6 +10,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class DevelopersServiceImpl implements DevelopersService{
     public Developer getDeveloperById(Long id){
-        return new Developer();
+        return new Developer(id);
     }
 }
